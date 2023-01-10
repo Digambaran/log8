@@ -1,0 +1,11 @@
+{
+  "type": "function",
+  "source": {
+    "ssh":"git@github.com:Digambaran/log8.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "listTodos"
+}
