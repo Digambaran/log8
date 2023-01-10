@@ -4,7 +4,7 @@
     "ssh":"git@github.com:Digambaran/log8.git",
     "https":"https://github.com/Digambaran/log8.git"
   },
-  "language": "nodejs",
+  "language": "js",
   "start": "node index.js",
   "build": "npm run build",
   "postPull": "npm install",
